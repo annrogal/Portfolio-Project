@@ -1,9 +1,13 @@
 body {
     max-width: 100%;
-    font-family: 'Mina', san-serif;
+    font-family: "Mina", san-serif;
     font-size: 14px;
 }
 
+
+h1, p {
+    margin: 0px;
+}
 /*Header*/
 .header {
     border-bottom: 2px solid #7d97ad;
@@ -16,21 +20,13 @@ body {
     height: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
-    float: left;
 }
 
 
 .header__title {
-    float: right;
     width: 100%;
-}
-
-
-.header__title h1,
-.header__title p {
     text-align: right;
     text-transform: uppercase;
-    margin: 0;
 }
 
 /*Main*/
@@ -106,18 +102,18 @@ body {
 
 
 #work-1 {
-    background-image: url('../images/animal_trading_card400x300.jpg');
+    background-image: url(../images/animal_trading_card400x300.jpg);
     
 }
 
 
 #work-2 {
-    background-image: url('../images/pixel_art_maker400x300.jpg');
+    background-image: url(../images/pixel_art_maker400x300.jpg);
 }
 
 
 #work-3 {
-    background-image: url('../images/home-town-app400x300.jpg');
+    background-image: url(../images/home-town-app400x300.jpg);
 }
 
 /*Footer*/
@@ -127,7 +123,7 @@ body {
  }
 
 
-.footer__content img{
+.footer__content img {
     width: 30px;
     height: 30px;
 }
